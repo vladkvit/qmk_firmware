@@ -48,6 +48,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* serial.c configuration for split keyboard */
 #define SOFT_SERIAL_PIN E6
 
+#define RGB_MATRIX_KEYPRESSES
+
+#define DRIVER_ADDR_1 0b1010000
+#define DRIVER_ADDR_2 0b1010000 // this is here for compliancy reasons.
+#define DRIVER_COUNT 2
+
+#define DRIVER_1_LED_TOTAL 8
+
+#define DRIVER_LED_TOTAL (DRIVER_1_LED_TOTAL + 0)
+
 /* ws2812 RGB LED */
 // #define RGB_DI_PIN B4
 // #define RGBLED_NUM 20    // Number of LEDs
