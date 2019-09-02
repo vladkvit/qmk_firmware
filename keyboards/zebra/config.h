@@ -52,10 +52,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_BACKLIGHT_DISABLE_AFTER_TIMEOUT 0
 
 // the default brightness
-#define RGB_BACKLIGHT_BRIGHTNESS 255
+// #define RGB_BACKLIGHT_BRIGHTNESS 255
 
 // the default effect (RGB test)
-#define RGB_BACKLIGHT_EFFECT 255
+// #define RGB_BACKLIGHT_EFFECT 255
+
+#define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_CYCLE_ALL
 
 #define DRIVER_ADDR_1 0b1010000
 #define DRIVER_ADDR_2 0b1010100 // this is here for compliancy reasons.
